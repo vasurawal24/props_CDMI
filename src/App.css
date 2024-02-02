@@ -1,0 +1,736 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.d-flex
+{
+  display: flex;
+}
+.w-33{
+  width: 33%;
+  padding: 0 12px;
+}
+
+
+.pd-y{
+  padding: 50px 0;
+  /* margin-top: 50px; */
+}
+a
+{
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+}
+.container
+{
+  width: 1130px;
+  margin: auto;
+}
+li , ul li 
+{
+  list-style-type: none;
+}
+.tb-p
+{
+  padding: 50px 0px;
+}
+
+/* ******** top header start **********8 */
+.topinfo
+{
+  background-color: #003366;
+  padding: 10px 0px;
+  color: white;
+}
+.headr
+{
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+}
+.leftinfo i
+{
+  padding-right: 5px;
+  font-size: 20px;
+}
+.leftinfo a
+{
+  padding-right: 12px ;
+}
+.rightinfo li a
+{
+  padding-left: 7px ;
+}
+/* ******** top header end *********** */
+
+/* ******** header start *********** */
+header
+{
+  padding: 10px 0px;
+}
+header .d-flex{
+  
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img{
+  height: 60px;
+}
+.main-menu li a{
+  padding-right:30px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  position: relative;
+} 
+
+.menu_icon{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-35%);
+  margin-left: 1px;
+}
+
+/* ******** header end *********** */
+/* ********* slider start *********** */
+.slider img{
+  width: 100%;
+}
+/* ********* slider end ************* */
+/* **************  cours start ******** */
+
+.course-head .line{
+  height: 3px;
+  width: 20px;
+  background-color: orange;
+  position: absolute;
+  left: 42%;
+  top: 50%;
+  margin-right: 10px;
+}
+
+.course-head
+{
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.course h1{
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.course-img{
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.course-img .w-33{
+  /* width: calc(33.33% - 24px); */
+  padding: 0 12px;
+}
+
+.course-img img{
+  width: 100%;
+  border-radius: 20px 20px 0px 0px ;
+}
+
+.course-img .content{
+  /* border: 2px solid black; */
+  border-radius: 20px;
+  box-shadow: 0px 0px 7px black;
+}
+
+.course-img .content h2{
+  padding: 2px 0px 10px 15px;
+  font-weight: 500;
+}
+
+.course-img .d-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course-img .w-33{
+  margin-bottom: 24px;
+}
+
+.course-bottom{
+  padding: 15px 15px;
+}
+
+.course-bottom .social{
+  color: darkgoldenrod;
+  font-size: 20px;
+}
+
+.course-btn button{
+  background-color: #003366;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 17px;
+
+}
+
+.course-btn a{
+  color: white;
+}
+
+.btn-all-courses{
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 30px;
+}
+
+.btn-all-courses a{
+  background-color: goldenrod;
+  color: white;
+  padding: 15px 40px 15px 30px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.btn-all-courses .arrow{
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* ************* cours end ************ */
+/* *************** about us start*************************8 */
+.about
+{
+  width: 65%;
+  height: 100%;
+  border-radius: 0 250px 250px  0;
+  background-color: white;
+  position: relative;
+  z-index: 2;
+  box-shadow: 2px -2px 5px gray ,2px 2px 5px gray ;
+}
+.about .content
+{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  padding: 10% 0px;
+  margin-right: 10%;
+  /* padding-right: 5%; */
+  text-align: justify;
+}
+.about-content
+{
+  align-items: center;
+}
+.about .detail
+{
+  color: #888888;
+  margin-bottom: 16px;
+}
+.about-head
+{
+  padding-bottom: 8px;
+  position: relative;
+  text-transform: uppercase;
+  margin-left: 27px;
+
+
+}
+.about h6
+{
+  font-size: 16px;
+  word-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  color: #292B2C;
+}
+.line{
+  height: 3px;
+  width: 20px;
+  background-color: orange;
+  position: absolute;
+  left: -27px;
+  top: 35%;
+}
+
+.about-content img{
+  height: 400px;
+}
+.about-img{
+  position: absolute;
+  right: 0;
+  z-index: -100;
+}
+.about-img::before{
+  position: absolute;
+  content: '';
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0,0.5);
+}
+
+.about-btn{
+  border: none;
+  border-radius: 5px;
+  /* margin-top: 50px; */
+}
+
+.about-btn a{
+  background-color: goldenrod;
+  color: white;
+  padding: 15px 40px 15px 30px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.about-btn .arrow{
+  font-size: 20px;
+  position: absolute;
+}
+/* *************** about us end *************************8 */
+/* ---------------------------------- COUNTING CSS START -------------------------------- */
+
+.count .content
+{
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 30px 0px;
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+.bacimg
+{
+  position: relative;
+}
+.count .content
+{
+  align-content: space-around;
+  
+}
+
+.bacimg::before{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0,0.5);
+}
+.count .count-icon
+{
+  font-size: 70px;
+}
+.count .content h1{
+  font-size: 30px;
+  margin-top: 10px;
+}
+.count .content h1{
+  font-size: 16px;
+}
+
+
+/* ---------------------------------- COUNTING CSS END-------------------------------- */
+
+/* ---------------------------------- HAPPY STUDENTS CSS START------------------------ */
+.w-50{
+  width: 50%;
+}
+
+.line{
+  height: 3px;
+  width: 20px;
+  background-color: orange;
+  position: absolute;
+  left: -30px;
+  top: 50%;
+}
+
+.happy-head
+{
+  position: relative;
+  text-transform: uppercase;
+  margin-left: 30px;
+  /* margin-top: 50px; */
+}
+
+.happy h1{
+  letter-spacing: 1px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.happy-icon
+{
+  font-size: 100px;
+  color: rgba(0, 0, 0,0.08);
+  margin-top:30px;
+}
+
+.happy .detail{
+  text-align: justify;
+  color: #888888;
+}
+.happy-bottom{
+  align-items: center;
+  margin-top: 30px;
+}
+.happy-bottom img{
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.bottom-con h3{
+  color: #003366;
+  margin-bottom: 5px;
+}
+
+.bottom-con h5 i{
+  color: gold;
+}
+
+.bottom-con h5 span{
+  color: #888888;
+  font-style: italic;
+}
+
+.happy-img img{
+  height: 500px;
+  width: 500px;
+}
+
+.happy-img{
+  margin-left: 80px;
+}
+
+/* ---------------------------------- HAPPY STUDENTS CSS END-------------------------- */
+
+/* -----------------------------------why chouce  start ------------------------------ */
+/* .bc{
+  background-color: rgb(242, 239, 234);
+}
+.why h1{
+  padding-left: 33%;
+  padding-top: 1%;
+
+}
+.course-head .line{
+  height: 3px;
+  width: 20px;
+  background-color: orange;
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  margin-right: 10px;
+}
+.part{
+  height: 800px;
+}
+.backc{
+
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-around;
+ 
+}
+.card{
+  height: 350px;
+  width: 300px;
+  background-color: rgb(9, 39, 66);
+  margin-top: 2%;
+  
+}
+.im{
+  position: relative;
+}
+.be::after{
+  content:"";
+  position: absolute;
+  top: 30px;
+  left: 55px;
+
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: rgb(210, 44, 14);
+} */
+
+
+
+
+/* -----------------------------------why chouce  start ------------------------------ */
+.main-part-9 {
+  background-color: #F7F7F7;
+}
+
+.main-part-9 .line2 {
+  gap: 25px;
+}
+
+.main-part-9 .line2 .box h2 {
+  padding: 0;
+}
+
+.main-part-9 .line2 .box {
+  width: calc(33.33% - 20px);
+  height: 350px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 4px 20px rgba(101, 101, 101, 0.1);
+  transition: 0.5s;
+}
+
+.main-part-9 .line2 .box:hover {
+  transform: translatey(-5%);
+}
+
+.circal {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #003366;
+  transition: 0.5s;
+  outline: 2px solid white;
+}
+
+.main-part-9 .line2 .box:hover .circal {
+  outline: 2px solid white;
+  outline-offset: -10px;
+}
+
+.sm-li4 {
+  position: relative;
+  margin-left: 35px;
+}
+
+.sm-li4::before {
+  content: '';
+  height: 1px;
+  width: 25px;
+  background-color: #DF9C00;
+  top: 50%;
+  left: -20%;
+  position: absolute;
+}
+
+.main-part-10 .line2 .box {
+  border: 1px solid #DDDDDD;
+}
+
+.main-part-11 .part2 {
+  padding: 25px 0;
+}
+
+.main-part-11 .part2 a {
+  border: 1px solid #DDDDDD;
+  display: inline-block;
+  padding: 2px 5px;
+  margin: 2px;
+  font-size: 12px;
+  color: black;
+  border-radius: 2px;
+  transition: 0.5s;
+}
+
+
+
+footer {
+  color: white;
+}
+
+.main-part-12 {
+  background-color: var(--footor-color);
+  padding: 150px 0;
+  color: white;
+}
+
+.main-part-12 .part1 {
+  width: 41.65%;
+  /* 5 */
+}
+
+.main-part-12 .part1 .social-icon a {
+  color: white;
+  display: inline-block;
+}
+
+.main-part-12 .part1 .social-icon a>* {
+  height: 25px;
+  width: 25px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1A4876;
+  border-radius: 5px;
+}
+
+.main-part-12 .part1 .social-icon a>*:hover {
+  color: #FFBC06;
+  transition: 0.9s;
+}
+
+.main-part-12 .part2 {
+  width: 24.99%;
+  /* 3 */
+}
+
+.main-part-12 .part3 {
+  width: 33.36%;
+  /* 4 */
+}
+
+.main-part-12 a {
+  color: white;
+}
+
+.co-go {
+  color: var(--button-color) !important;
+}
+
+.main-part-12 .part2 ul li {
+  padding: 5px 0;
+}
+
+.main-part-12 .part3 ul li {
+  padding: 5px 0;
+}
+
+.main-part-12 ul li {
+  transition: 1s;
+}
+
+
+
+.m-l {
+  margin-right: 10px;
+}
+
+.re {
+  transition: 0.3s;
+  cursor: pointer;
+  display: inline-block;
+}
+
+
+
+.box:has(.btn-ef) {
+  overflow: hidden;
+}
+
+.btn-ef {
+  position: relative;
+}
+
+.btn-ef::before {
+  position: absolute;
+  content: '';
+  height: 20px;
+  width: 200px;
+  top: -150%;
+  left: -150%;
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: rotate(120deg);
+  transition: 0.5s;
+
+}
+
+.d-f {
+  display: flex;
+}
+.a-i-c {
+  align-items: center;
+}
+
+.j-c-s-b {
+  justify-content: space-between;
+}
+
+.j-c-s-e {
+  justify-content: space-evenly;
+}
+.f-d-c {
+  flex-direction: column;
+}
+.j-c-s-a {
+  justify-content: space-around;
+}
+
+.f-w-w {
+  flex-wrap: wrap;
+}
+footer{
+  background-color: #003366;
+}
+.happy{
+  color:#DF9C00;
+}
+.icon svg{
+  width: 50px !important;
+  height: 50px !important;
+}
+.student .line{
+  height: 3px;
+  width: 20px;
+  background-color: orange;
+  position: absolute;
+  left: 41%;
+  top: 50%;
+  margin-right: 10px;
+}
+
+.student-head
+{
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.student h1{
+  text-align: center !important; 
+  letter-spacing: 1px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.std-img{
+  margin-top: 50px;
+}
+
+.std{
+  width: 100%;
+  border: 1px solid #888888;
+  margin: 15px;
+  padding: 5px;
+}
+
+.std img{
+  width: 100% !important;
+  height: 70px;
+  object-fit: cover;
+}
+
+.student h2{
+  margin-top: 70px;
+  margin-left: 15px;
+}
